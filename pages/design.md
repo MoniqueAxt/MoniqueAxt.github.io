@@ -5,7 +5,7 @@ title: "University courses"
 subheadline: "Only the interesting ones"
 header:
    image_fullwidth: "header_unsplash_5.jpg"
-permalink: "/design/"
+permalink: "/courses/"
 ---
 <ul>
     {% for post in site.categories.design %}

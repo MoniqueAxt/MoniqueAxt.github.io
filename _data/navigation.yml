@@ -7,7 +7,7 @@
   side: left
   dropdown:
     - title: "Android Java Application"
-      url: "/"
+      url: "/design/android-project"
     - title: "Web Security Application"
       url: "/"
 
@@ -16,11 +16,11 @@
   side: left
   dropdown:
     - title: "System programming in Linux"
-      url: "/design/system-programming"
+      url: "/courses/system-programming"
     - title: "Parallelism & Concurrency"
-      url: "/design/parallelism-concurrency"
+      url: "/courses/parallelism-concurrency"
     - title: "Design Patters in C++"
-      url: "/design/design-patterns-cplusplus"
+      url: "/courses/design-patterns-cplusplus"
     - title: "Web programming - PHP & PostgreSQL"
       url: "/"
 
@@ -30,7 +30,7 @@
 
 
 - title: "Templates"
-  url: "/design/"
+  url: "/courses/"
   side: left
   dropdown:
   - title: "Grid & Colors"
