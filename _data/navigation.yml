@@ -1,10 +1,35 @@
-- title: Start
+- title: Home
   url: "/"
   side: left
 
-- title: Getting Started
-  url: "/getting-started/"
+- title: Projects
+  url: "/design/portfolio/"
   side: left
+  dropdown:
+    - title: "Android Java Application"
+      url: "/"
+    - title: "Web Security Application"
+      url: "/"
+
+- title: Other repos
+  url: "/blog/"
+  side: left
+  dropdown:
+    - title: "System programming in Linux"
+      url: "/design/system-programming"
+    - title: "Parallelism & Concurrency"
+      url: "/"
+    - title: "Design Patters in C++"
+      url: "/"
+
+- title: Resume
+  url: "/documentation/"
+  side: left
+  dropdown:
+    - title: "Changelog"
+      url: "/changelog/"
+    - title: "Roadmap"
+      url: "/roadmap/"
 
 - title: "Templates"
   url: "/design/"
@@ -31,33 +56,33 @@
   - title: "Portfolio"
     url: "/design/portfolio/"
 
-- title: "Header Styles"
-  url: "/headers/"
-  side: left
-  dropdown:
-  - title: "Header with Full-Width-Image"
-    url: "/design/header-full-width-image/"
-  - title: "Header with Image and Pattern"
-    url: "/design/header-image-pattern/"
-  - title: "Header with image and color"
-    url: "/design/header-image-color/"
-  - title: "Header Only With Logo"
-    url: "/design/header-logo-only/"
-  - title: "Header With Text"
-    url: "/design/header-with-text/"
-  - title: "No Header"
-    url: "/design/no-header/"
-  - title: "No Header but Image"
-    url: "/design/no-header-but-image/"
+#- title: "Header Styles"
+  #  url: "/headers/"
+  #side: left
+    #dropdown:
+    #- title: "Header with Full-Width-Image"
+    #url: "/design/header-full-width-image/"
+    #- title: "Header with Image and Pattern"
+    #url: "/design/header-image-pattern/"
+    #- title: "Header with image and color"
+    # url: "/design/header-image-color/"
+    #- title: "Header Only With Logo"
+    #url: "/design/header-logo-only/"
+    #- title: "Header With Text"
+    #url: "/design/header-with-text/"
+    #- title: "No Header"
+    #url: "/design/no-header/"
+    #- title: "No Header but Image"
+    #url: "/design/no-header-but-image/"
 
-- title: Documentation
-  url: "/documentation/"
-  side: left
-  dropdown:
-  - title: "Changelog"
-    url: "/changelog/"
-  - title: "Roadmap"
-    url: "/roadmap/"
+#- title: Documentation
+#  url: "/documentation/"
+#  side: left
+#  dropdown:
+#  - title: "Changelog"
+#    url: "/changelog/"
+#  - title: "Roadmap"
+#    url: "/roadmap/"
 
 - title: Blog
   url: "/blog/"
