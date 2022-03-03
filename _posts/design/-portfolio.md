@@ -1,6 +1,6 @@
 ---
 layout: page-fullwidth
-title: "Show your beautiful work!"
+title: "Larger projects"
 subheadline: "Portfolio"
 teaser: "With <em>Feeling Responsive</em> you don't need a special portfolio template. Just check out the great possibilities of the <a href='http://foundation.zurb.com/docs/components/grid.html'>foundation grid</a> and experiment with it."
 categories:
@@ -10,12 +10,12 @@ categories:
 
 <div class="row t60">
     <div class="medium-6 columns b30">
-        <img src="{{ site.urlimg }}webdesign_screenshot_jcorneille.jpg" alt="">
+        <img src="{{ site.urlimg }}android.jpg" alt="">
         <p>Website: <a href="http://jcorneille.de">Grafik Design Jeannette Corneille</a></p>
     </div><!-- /.medium-6.columns -->
 
     <div class="medium-6 columns b30">
-        <img src="{{ site.urlimg }}webdesign_screenshot_phlow.jpg" alt="">
+        <img src="{{ site.urlimg }}php.jpg" alt="">
         <p>Website: <a href="https://phlow.de/">Phlow.de</a></p>
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->
