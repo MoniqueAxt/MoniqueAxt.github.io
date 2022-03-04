@@ -4,7 +4,7 @@ title:  "Android Java Application"
 subheadline:  "Projects"
 teaser: "More than a few days of work to demonstrate my 'can-stick-to-something-for-a-longer-period' ability."
 categories:
-    - design
+    - portfolio
 header:
    image_fullwidth: header_unsplash_leaf.jpg
 
@@ -22,15 +22,13 @@ gallery:
     - image_url: gallery-android-swipe.png
       caption: Card swipe feature
     - image_url: gallery-android-add-new.png
-      caption: Add/edit a location with auto-fill feature
+      caption: Add/edit a location with autofill feature
     - image_url: gallery-android-fab.png 
       caption: FAB menu
     - image_url: gallery-android-delete.png
       caption: Delete confirmation
-    
-
 ---
-An app to save favourite or secret spots that may be "off the beaten path", encouraging exploration of nature.
+An (Android Java) app to save favourite or secret spots that may be "off the beaten path", encouraging exploration of nature.
 While there are many improvements still to be made, it's one of the projects into which I've invested a fair bit of time.
 
 {% include gallery %}
