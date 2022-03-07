@@ -3,13 +3,13 @@
   side: left
 
 - title: Projects
-  url: "/design/portfolio/"
+  url: "/portfolio/"
   side: left
   dropdown:
     - title: "Android Java Application"
-      url: "/design/android-project"
+      url: "/portfolio/android-project/"
     - title: "Web Security Application"
-      url: "/"
+      url: "/portfolio/web-security-project/"
 
 - title: Uni Courses
   url: "/blog/"
@@ -21,42 +21,19 @@
       url: "/courses/parallelism-concurrency"
     - title: "Design Patters in C++"
       url: "/courses/design-patterns-cplusplus"
-    - title: "Web programming - PHP & PostgreSQL"
-      url: "/"
+ #   - title: "Web programming - PHP & PostgreSQL"
+  #    url: "/"
 
-- title: Resume
-  url: "/documentation/"
+- title: Resumé
+  url: "/resume/"
   side: left
-
-
-- title: "Templates"
-  url: "/courses/"
-  side: left
-  dropdown:
-  - title: "Grid & Colors"
-    url: "/design/grid/"
-  - title: "Typography"
-    url: "/design/typography/typography/"
-  - title: "Page/Post"
-    url: "/design/page/"
-  - title: "Post-Left-Sidebar"
-    url: "/design/post-left-sidebar/"
-  - title: "Post-Right-Sidebar"
-    url: "/design/post-right-sidebar/"
-  - title: "Page Full-Width"
-    url: "/design/page-fullwidth/"
-  - title: "Blog-Page"
-    url: "/blog/"
-  - title: "Video"
-    url: "/design/video/"
-  - title: "Gallery"
-    url: "/design/gallery/"
-  - title: "Portfolio"
-    url: "/design/portfolio/"
-
 
 - title: "Search"
   url: "/search/"
+  side: right
+
+- title: "About"
+  url: "/info/"
   side: right
 
 - title: "Contact"

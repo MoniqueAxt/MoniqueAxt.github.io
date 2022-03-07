@@ -1,44 +1,9 @@
 - name: GitHub
-  url: http://github.com/moniqueaxt
+  url: https://github.com/moniqueaxt
   class: icon-github
   title: Code and more ...
 
-- name: Instagram
-  url: http://instagram.com/happy_tjej
-  class: icon-instagram
-  title: "If flowers are your thing.."
-
-- name: Pinterest
-  url: https://www.pinterest.se/MoniqueAxt/
-  class: icon-pinterest
-  title: "If flowers are your thing.."
-
-- name: Flickr
-  url: https://www.flickr.com/photos/monique_axt/
-  class: icon-flickr
-  title: "If flowers are your thing.."
-
-- name: YouTube
-  url: http://www.youtube.com/PhlowMedia
-  class: icon-youtube
-  title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
-
-#- name: Twitter
-#  url: http://twitter.com/
-#  class: icon-twitter
-#  title: "Twitter"
-
-# - name: Facebook
-#   url: http://www.facebook.com/
-#   class: icon-facebook
-#   title: ""
-
-# - name: Soundcloud
-#   url: http://soundcloud.com/
-#   class: icon-soundcloud
-#   title: ""
-
-# - name: Xing
-#   url: https://www.xing.com/profile/
-#   class: icon-xing
-#   title: Xing Profil
+- name: LinkedIn
+  url: https://www.linkedin.com/in/monique-axt-072996212/
+  class: icon-linkedin
+  title: ""
