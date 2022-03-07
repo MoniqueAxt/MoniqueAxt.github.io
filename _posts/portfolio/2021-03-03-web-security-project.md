@@ -89,8 +89,7 @@ When an application communicates with a database,
 it is important to safeguard against potential SQL injections. 
 
 #### Prepared SQL statements
-A <em>DatabaseConnection.php</em> class provides a method to query the database using prepared statements
-(see Table 4). The key to this is that the SQL statements are performed in two separate steps: preparation
+A <em>DatabaseConnection.php</em> class provides a method to query the database using prepared statements. The key to this is that the SQL statements are performed in two separate steps: preparation
 and execution. All queries to the database using parameter input are done using prepared statements.
 
 
@@ -123,7 +122,7 @@ the database and execute queries
 #### DOM-based XSS (type 0)
 Insecurely written HTML pages are the prerequisite for this type of attack. In the CoolForums project, preventing
 attacks that involve manipulating the DOM is done by limiting the use of JavaScript's `innerHTML()`
-method (used only with trusted data, Table 14) and ensuring the use of methods such as `innerText()`
+method (used only with trusted data) and ensuring the use of methods such as `innerText()`
 when the former method is not necessary - so that any malicious input is rendered as text. Additionally, all JS
 construction of HTML elements is done using `createElement()`, setting its properties and then using `appendChild()`
 (avoiding `insertAdjacentHTML()` for example) to inject the new element into the DOM.
@@ -133,13 +132,13 @@ as this can be altered) and on the server-side (see Limiting input size and type
 #### XSS type 1 & 2
 AKA Reflected/Nonpersistent XSS (type 1) and Stored/Persistent XSS (type 2).
 The potential risks are mitigated by validating input as well as HTML-encoding output before echoing it using `htmlentities()`
-or `htmlspecialchars()` (see Table 15 & 16). A check is done in a PHP function
-- if the topic ID and title do not match the data in the database, no data is returned (see Table 17).
+or `htmlspecialchars()`. A check is done in a PHP function
+- if the topic ID and title do not match the data in the database, no data is returned.
   Data fetched from the database is always executed using prepared SQL statements.
 
 In the case of a missed XSS bug, additional defensive measures were taken.
 *HttpOnly Cookies*, which helps protect some users (if the browser used supports this) by preventing cookies
-being read by the client using `document.cookie` (see Table 22).
+being read by the client using `document.cookie`.
 
 *Double quotes* are used to wrap tag properties, which can help foil some attacks that can bypass HTML-encoding.
 
@@ -166,7 +165,7 @@ the parameters are validated and checked.
 Erite operations are done using POST requests and this is checked on the back-end to restrict
 form-processing to only POST type requests.
 
-Another defence employed includes setting specific cookie attributes (see Table 22).
+Another defence employed includes setting specific cookie attributes.
 - The `SameSite` attribute specifies whether the cookie should be restricted to a first-party or same-site
 context. Although the top browsers set "lax" as the default and GET requests in this project are limited,
 it is still good practice to explicitly declare this attribute to limit the cookie to same-site requests.
