@@ -17,7 +17,7 @@ widget2:
   title: "Github profile"
   url: 'https://github.com/MoniqueAxt'
   image: widget-github-303x182.jpg
-  text: 'Straight to the code.'
+  text: 'Straight to the code. <br> see also: <em>Projects</em>'
 widget3:
   title: "About"
   url: '/info/'
