@@ -236,7 +236,8 @@ asciidoctor:
 # Site
   #Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 repository: MoniqueAxt/MoniqueAxt.github.io
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+favicon: assets/img/favicon.ico
+  #Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
