@@ -59,8 +59,8 @@ attention to my exercise and nutrition in my free time. I discovered a love for 
 night-program to learn more about the field. Eventually I graduated as a Personal Trainer and was able to quit my retail job to pursue fitness as a career.
 Working in a private studio, I re-discovered my love of learning and specialised in pre- and post-natal training.
 
-While I enjoyed this role immensely, the unusual working hours were not sustainable long-term, and
-begin considering alternative career options in Europe.
+While I enjoyed this role immensely, the unusual working hours were not sustainable long-term and I
+began considering alternative career options in Europe.
 
 ##### Sweden
 
