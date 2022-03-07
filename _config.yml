@@ -25,13 +25,13 @@ author: Monique
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-Url: 'http://localhost:4000'
-#TODO'https://moniqueaxt.github.io'
-baseurl: '/feeling-responsive'
+Url: 'https://moniqueaxt.github.io'
+  #'http://localhost:4000'
+#baseurl: '/feeling-responsive'
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/MoniqueAxt/feeling-responsive/edit/gh-pages
+#improve_content: https://github.com/MoniqueAxt/edit/gh-pages
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -39,8 +39,8 @@ improve_content: https://github.com/MoniqueAxt/feeling-responsive/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: '/feeling-responsive/images/'
-# TODO 'https://MoniqueAxt.github.io/feeling-responsive/images/'
+urlimg: '/images/'
+# TODO 'https://MoniqueAxt.github.io/images/'
 
 
 # Logo size is 600x80 pixels
@@ -235,7 +235,8 @@ asciidoctor:
 # RESUME
 #===================================================================
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+  #Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: MoniqueAxt/MoniqueAxt.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
