@@ -40,7 +40,6 @@ Url: 'https://moniqueaxt.github.io'
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
 urlimg: '/images/'
-# TODO 'https://MoniqueAxt.github.io/images/'
 
 
 # Logo size is 600x80 pixels
