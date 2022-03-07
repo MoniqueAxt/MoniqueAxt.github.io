@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title:  "Web Security Application"
 subheadline:  "Projects"
-teaser: "A project that focuses on the implementation of security measures in a web application."
+teaser: "Focusing on the implementation of security measures in a web application."
 breadcrumb: true
 categories:
     - portfolio
@@ -43,6 +43,7 @@ This application handles security vulnerabilities including SQL injection, XSS a
 </div>
 </div><!-- /.medium-4.columns -->
 <div class="medium-8 medium-pull-4 columns" markdown="1">
+
 
 ## About
 A PHP/JavaScript web-based messaging application that provides a forum for users to communicate
@@ -209,3 +210,6 @@ Moreover, default cases are included in the code logic, i.e. handling unexpected
 ### Restricted access
 Many of the website's features deal with restricted access. Using PHP's `header()` function, pages are redirected
 if the user is not logged-in, denying access.
+
+</div><!-- /.medium-8.columns -->
+</div><!-- /.row -->

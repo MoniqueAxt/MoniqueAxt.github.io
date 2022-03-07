@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Larger projects"
 subheadline: "Portfolio"
-teaser: "Things I've spent some time on."
+#teaser: "Things I've spent some time on."
 header:
     image_fullwidth: header-time.jpg
     title: "<br> monique axt <br> software engineer"
