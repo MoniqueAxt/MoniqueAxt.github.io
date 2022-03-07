@@ -6,22 +6,23 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: green-250767_1280.jpg
+  image_fullwidth: header-front-page2.jpg
+  title: "<br> monique axt <br> software engineer"
 widget1:
   title: "Projects"
-  url: '/blog/'
+  url: '/portfolio'
   image: widget-1-302x182.jpg
-  text: '..'
+  text: 'Pages dedicated to my larger projects, <br> presented delightfully.'
 widget2:
-  title: "About"
-  url: '/info/'
-  image: widget-coding-glasses.jpg
-  text: 'How did a South African working in natal fitness find her way to coding?'
-widget3:
   title: "Github profile"
   url: 'https://github.com/MoniqueAxt'
   image: widget-github-303x182.jpg
-  text: '..'
+  text: 'Straight to the code.'
+widget3:
+  title: "About"
+  url: '/info/'
+  image: widget-3-302x182.jpg
+  text: 'How did a South African working in natal fitness find her way to coding?'
 #
 # Use the call for action to show a button on the frontpage
 #

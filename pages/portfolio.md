@@ -3,17 +3,12 @@ layout: page-fullwidth
 title: "Larger projects"
 subheadline: "Portfolio"
 teaser: "Things I've spent some time on."
-
+header:
+    image_fullwidth: header-time.jpg
+    title: "<br> monique axt <br> software engineer"
 permalink: "/portfolio/"
-
-#categories:
-#    - design
-
 ---
-<!--more-->
-
-Would you like to give me something to add to this page? <a href="{{ site.url }}{{ site.baseurl }}/contact/">Contact me!</a>
-
+Want to give me something to add to this page? <a href="{{ site.url }}{{ site.baseurl }}/contact/">Contact me!</a>
 <div class="row t60">
     <div class="medium-6 columns b30">
 <a href="{{ site.url }}{{ site.baseurl }}/{{page.permalink}}/android-project">
