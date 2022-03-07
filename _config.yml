@@ -26,7 +26,7 @@ author: Monique
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 Url: 'http://localhost:4000'
-  #TODO'https://moniqueaxt.github.io'
+#TODO'https://moniqueaxt.github.io'
 baseurl: '/feeling-responsive'
 
 # This is for the editing function in _/includes/improve_content
@@ -40,7 +40,7 @@ improve_content: https://github.com/MoniqueAxt/feeling-responsive/edit/gh-pages
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
 urlimg: '/feeling-responsive/images/'
-  # TODO 'https://MoniqueAxt.github.io/feeling-responsive/images/'
+# TODO 'https://MoniqueAxt.github.io/feeling-responsive/images/'
 
 
 # Logo size is 600x80 pixels
@@ -48,9 +48,9 @@ logo: "logo.png"
 
 # Plugins
 plugins:
-    - jekyll-asciidoc
-    - jekyll-gist
-    - jekyll-paginate
+  - jekyll-asciidoc
+  - jekyll-gist
+  - jekyll-paginate
 
 
 #       ____              _             __  _
@@ -65,20 +65,20 @@ paginate_path: "blog/page:num"   # Pagination path › Important for blog page i
 
 
 # Theme works best with Kramdown (using the table of contents function)
-markdown           : kramdown
-permalink          : /:categories/:title/
-highlight          : rouge
-excerpt_separator  : "<!--more-->"
-include            : ['.htaccess']
+markdown: kramdown
+permalink: /:categories/:title/
+highlight: rouge
+excerpt_separator: "<!--more-->"
+include: [ '.htaccess' ]
 # Exclude these files from your production _site
 exclude:
-    - .sass-cache
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
-    - INSTALL.md
-    - vendor
+  - .sass-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - INSTALL.md
+  - vendor
 
 
 # The language setting is used in /includes/header.html for html-settings
@@ -89,11 +89,11 @@ language: 'en'
 # Options › http://jch.penibelst.de
 compress_html:
   clippings: all
-  comments: ["<!-- ", " -->"]
+  comments: [ "<!-- ", " -->" ]
   endings: all
   profile: false
   ignore:
-    envs: [development]
+    envs: [ development ]
 
 
 #
@@ -106,17 +106,15 @@ compress_html:
 # Default Settings
 
 defaults:
-  -
-    scope:
-      path: '' 				# an empty string here means all files in the project
+  - scope:
+      path: ''                # an empty string here means all files in the project
       type: 'pages'
     values:
-      show_meta: false 	# Hide metadata for all pages
+      show_meta: false    # Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
       author: monique     # Default author for pages
-  -
-    scope:
+  - scope:
       path: ''
       type: 'posts'
     values:
@@ -145,8 +143,8 @@ defaults:
 #   ___/ / /___/ /_/ /
 #  /____/_____/\____/    Verify Website to Webmaster Tools
 
-google_site_verification        : 'Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ'
-bing_webmastertools_id          : '0FB4C028ABCF07C908C54386ABD2D97F'
+google_site_verification: 'Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ'
+bing_webmastertools_id: '0FB4C028ABCF07C908C54386ABD2D97F'
 # yandex_site_verification      : ''
 # alexa_verify_id               : ''
 
@@ -159,29 +157,18 @@ bing_webmastertools_id          : '0FB4C028ABCF07C908C54386ABD2D97F'
 #   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicon-Crap: Favicons, Chrome, Android & Apple Touch Buttons
 #                                                 More information » https://mathiasbynens.be/notes/touch-icons
 
-favicon-32x32                        : 'favicon-32x32.png'
-touch-icon-192x192                   : 'touch-icon-192x192.png'
-apple-touch-icon-180x180-precomposed : 'apple-touch-icon-180x180-precomposed.png'
-apple-touch-icon-152x152-precomposed : 'apple-touch-icon-152x152-precomposed.png'
-apple-touch-icon-144x144-precomposed : 'apple-touch-icon-144x144-precomposed.png'
-apple-touch-icon-120x120-precomposed : 'apple-touch-icon-120x120-precomposed.png'
-apple-touch-icon-114x114-precomposed : 'apple-touch-icon-114x114-precomposed.png'
-apple-touch-icon-76x76-precomposed   : 'apple-touch-icon-76x76-precomposed.png'
-apple-touch-icon-72x72-precomposed   : 'apple-touch-icon-72x72-precomposed.png'
-apple-touch-icon-precomposed         : 'apple-touch-icon-precomposed.png'
-msapplication_tileimage              : 'msapplication_tileimage.png'               # Size 144x144
-msapplication_tilecolor              : '#fabb00'
-
-
-#       ______                __                __
-#      / ____/___ _________  / /_  ____  ____  / /__
-#     / /_  / __ `/ ___/ _ \/ __ \/ __ \/ __ \/ //_/
-#    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<
-#   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
-
-og_image                             : 'http://images.phlow.de/phlow/phlow_de-logo-512x.png'
-og_locale                            : 'en_EN'
-og_type                              : 'website'
+favicon-32x32: 'favicon-32x32.png'
+touch-icon-192x192: 'touch-icon-192x192.png'
+apple-touch-icon-180x180-precomposed: 'apple-touch-icon-180x180-precomposed.png'
+apple-touch-icon-152x152-precomposed: 'apple-touch-icon-152x152-precomposed.png'
+apple-touch-icon-144x144-precomposed: 'apple-touch-icon-144x144-precomposed.png'
+apple-touch-icon-120x120-precomposed: 'apple-touch-icon-120x120-precomposed.png'
+apple-touch-icon-114x114-precomposed: 'apple-touch-icon-114x114-precomposed.png'
+apple-touch-icon-76x76-precomposed: 'apple-touch-icon-76x76-precomposed.png'
+apple-touch-icon-72x72-precomposed: 'apple-touch-icon-72x72-precomposed.png'
+apple-touch-icon-precomposed: 'apple-touch-icon-precomposed.png'
+msapplication_tileimage: 'msapplication_tileimage.png'               # Size 144x144
+msapplication_tilecolor: '#fabb00'
 
 
 #      _____            _       __   __  ___         ___
@@ -193,21 +180,9 @@ og_type                              : 'website'
 #  Open _data/socialmedia.yml to adjust the left and right topbar navigation
 #
 
-socialmedia:
-    twitter   : phlow
-    facebook  : phlow.media
-
-
-#        ____  _
-#       / __ \(_)________ ___  _______
-#      / / / / / ___/ __ `/ / / / ___/
-#     / /_/ / (__  ) /_/ / /_/ (__  )
-#    /_____/_/____/\__, /\__,_/____/
-#                    /_/
-#
-# used in _includes/comments
-
-# disqus_shortname:
+#socialmedia:
+#    twitter   : phlow
+#    facebook  : phlow.media
 
 
 #      _____
@@ -218,8 +193,8 @@ socialmedia:
 #
 
 sass:
-    sass_dir : _sass
-    style    : :compressed
+  sass_dir: _sass
+  style: :compressed
 
 
 #       ___                __      __  _
@@ -232,24 +207,6 @@ sass:
 # used in _includes/footer_scripts
 
 # google_analytics_tracking_id:
-
-
-
-#   _                 _     _
-#  | |_ __ ___      _| | __| |_ ___
-#  | __/ _` \ \ /\ / / |/ /| __/ _ \
-#  | || (_| |\ V  V /|   < | || (_) |
-#   \__\__,_| \_/\_/ |_|\_(_)__\___/     More › https://www.tawk.to/knowledgebase/
-#
-#  tawk.to is a free live chat app that lets you monitor and chat
-#  with visitors on your website or from a free customizable page
-#
-#  To load the script add tawkto: true in front matter of each page
-#
-# used in _includes/footer_scripts
-
-# tawkto_embed_uri:
-
 
 #     ___              _     __           __
 #    /   |  __________(_)___/ /___  _____/ /_____  _____
@@ -272,3 +229,203 @@ asciidoctor:
     source-highlighter: coderay
     coderay-css: style
     icons: font
+
+
+#==================================================================
+# RESUME
+#===================================================================
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Monique Axt
+resume_title: Software Engineer
+email: moniqueaxt@tutanota.com
+email_title: Email
+phone:
+# phone_title: Phone (Phone title override)
+website: https://moniqueaxt.github.io/
+website_title: Website
+
+# Social links
+github_username: moniqueaxt
+flickr_username: monique_axt
+linkedin_username: monique-axt-072996212
+
+
+# Additional icon links
+#additional_links:
+#  - title: Link name
+#    icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#    url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/about-cartoon.png
+about_content: | # this will include new lines to allow paragraphs
+  I want to change the world for the better using my passion for coding. I'm a Software
+  Engineering student (graduating 2023) who is excited about working with anything related
+  to technology and electronics.
+
+  Originally from South Africa, I moved to Sweden to pursue a degree in software.    
+  
+  Main skills: <mark>Java</mark>, <mark>C++</mark>, <mark>PHP</mark>, <mark>Android</mark>
+  
+  Dabbled in : Python, C, RxJava, JavaScript, Linux, PostgreSQL.
+  
+  My interests include <mark>embedded systems</mark>, <mark>mobile app development</mark>,
+  <mark>database management</mark> and all things <mark>backend</mark>.
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # weak / <empty>
+        title: Android Java App
+        link: http://localhost:4000/feeling-responsive/portfolio/android-project/
+        link_text: project webpage
+        additional_links:
+        # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #  icon: fab fa-android
+        #  url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          An app to save favourite or secret spots that may be “off the beaten path”.
+        description: | # this will include new lines to allow paragraphs
+          Encouraging exploration of nature, the main feature of this app is saving beautiful locations you may 
+          have stumbled upon or would like to visit again. Perhaps a specific spot deep in a forest, a small unnamed creek,
+          or an unusual bank that's perfect for sunset picnics. 
+          
+          Storing data is achieved via Room Library and associated components, while displaying data is achieved using Recycler View,
+          custom views, Maps and interchangeable fragments. Search, edit and delete functionality are also implemented.
+        #  ![alt text](../images/gallery-android-saved-location-thumb.png "App")
+
+      - layout: left
+        border:
+        title: Web Security PHP Application
+        link: http://localhost:4000/feeling-responsive/portfolio/web-security-project/
+        link_text: project webpage
+        additional_links:
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-php
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          A project that focuses on the implementation of security measures in a web application.
+        description: | # this will include new lines to allow paragraphs
+          A PHP/JavaScript web-based messaging application that provides a simple forum for users to communicate by posting Topics
+          or replying to these with Posts. Users need to be logged-in to submit or delete a Topic or Post and the latter can be upvoted, downvoted and deleted.
+          With this functionality in mind, the application handles security vulnerabilities including SQL injection, XSS and XSRF.   
+
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-left
+        border: weak
+        title: Mittuniversitetet
+        sub_title: BSc Software Engineering
+        caption: Graduating 2023
+        quote: >
+          Focused on systems and software development.
+        description: | # this will include new lines to allow paragraphs
+          A degree program that focuses on system and software development, including the design and implementation of software for the web, servers, personal computers,
+          tablets and mobiles with a focus on applications for computer and mobile.
+          A distance-based program that improved my ability to be self-motivated, responsible and disciplined.
+          
+          <p>See the full list of courses <a href="https://www.miun.se/utbildning/program/data-och-it/programvaruteknik/kurser/">here</a>.<p>
+
+      - layout: top-left
+        border:
+        title: Högskolan Dalarna
+        sub_title: Utveckling av eTjänster
+        caption: Graduating 2023
+        quote: >
+          With eServices, you are the one who designs and programs the future.
+        description: | # this will include new lines to allow paragraphs
+          This program aims to provide the knowledge to be able to work with the development of eServices, especially mobile.   
+          Interesting concepts covered in this program include courses on eService/IT system design, database systems, e-governance,
+          and data security and privacy.         
+          
+          The development of eServices involves both design and implementation.
+          I decided to study this course as a means to improve my ability and knowledge
+          in specifically the former, while strengthening my skills in the former.
+
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: Chalmers University of Technology
+        sub_title: Teaching Assistant (Python)
+        caption: HT - 2021
+        link:
+        quote: >
+          A social position that involved teaching and grading for an introductory course in Python.
+        #  Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          This role improved my interpersonal soft skills including compromise, patience and successful communication.
+          - Students frequently expressed gratitude for my welcoming and patient attitude when conducting individual or group teaching.
+          - The course examiner displayed confidence in my ability to be adaptable, follow and implement instructions and continuously improve.
+          - Scheduling, organisation and collaboration were key skills needed in this role.
+
+      - layout: left
+        border: weak
+        title: TLC Fitness Studio
+        sub_title: Pre- and post-natal fitness coach
+        caption: 2013 - 2014
+        link:
+        quote: >
+          Responsible for independently running a private studio, creating and fostering client relationships.
+        description: | # this will include new lines to allow paragraphs    
+          This role developed a strong desire to be continuously learning, researching and keeping up-to-date in my field.
+          - Introduced the use of technology to improve training and reporting.
+          - Successfully implemented a client-feedback system.
+          - Oversaw the training of new employees.    
+          - Effectively developed and maintained 12 long-term client relationships.
+          - Maximised client satisfaction by researching and designing workout plans with keen attention to detail.
+
+      - layout: left
+        title: Mr Pet Boutique
+        sub_title: Regional Operations Manager
+        caption: 2010 - 2013
+        link:
+        quote: >
+          Oversight of the organisation and management of 6 retail stores.
+        description: | # this will include new lines to allow paragraphs
+          I developed strong collaborative, administrative and social skills in this position.
+          - Optimised financial responsibilities such as banking administration, pricing, and profit analysis.
+          - Achieved the expansion goal of opening 2 new stores.
+          - Introduced efficient systems to handle stock-purchacing, -ordering -organisation, and -inventory.
+          - Developed great communication skills by establishing relationships with suppliers and managing 10-12 staff members.
+          - Successfully trained and integrated new staff members.
+
+
+
+#  - title: A Little More About Me
+#    layout: text
+#    content: | # this will include new lines to allow paragraphs
+#      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+#      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
