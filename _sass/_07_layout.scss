@@ -75,12 +75,13 @@ body.video cite { color: #fff; }
     background-color: $primary-color;
 }
 #masthead-with-text {
-    text-align: center;
-    font-size: rem-calc(54);
-    font-family: $header-font-family;
+    text-align: left;
+    font-size: rem-calc(22);
+    font-family: "Courier New", Courier, monospace;
+            //$header-font-family;
     color: #fff;
-    text-transform: uppercase;
-    text-shadow: 0 2px 3px rgba(0,0,0,.4);
+    text-transform: lowercase;
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
 }
 #masthead-no-image-header {
     height: 175px;
