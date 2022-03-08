@@ -29,9 +29,9 @@ gallery:
     - image_url: gallery-webp-UI-8.png
       caption: Topic with reply Posts
 ---
-
 This application handles security vulnerabilities including SQL injection, XSS and XSRF. Inspiration from completion of the <a href="https://seedsecuritylabs.org/Labs_20.04/Web/">SEED labs.</a>
 {% include gallery %}
+
 
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
@@ -51,6 +51,9 @@ by posting <em>Topics</em> or replying to these with <em>Posts</em>. Users need 
 logged-in to submit a Topic or Post. The latter can be upvoted, downvoted and deleted. 
 The frontend was written in <a href="http://vanilla-js.com/">Vanilla JavaScript</a>, and while the website
 and its associated forum are fully functional for the purposes of this project, the focus is on security.
+
+<img src="{{ site.urlimg }}/GitHub-Mark-32px.png" alt="Github repo">
+<a href="https://github.com/MoniqueAxt/web-security-app" target="_blank">Github repo link</a>
 
 ## Website functionality
 1. Users can post messages ⇔ they are logged in.
