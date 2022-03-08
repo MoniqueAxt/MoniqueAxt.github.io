@@ -16,8 +16,8 @@ slogan: 'Software Engineer'
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: 'A wonderful place where code changes the world.'
 
-# The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-#credits: '<p>Based on the <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> theme by <a href="http://phlow.de/">Phlow</a></p>'
+# The credits show up in the includes/_footer.html
+#credits: '<p></p>'
 
 # Main author of the website
 # See > authors.yml
@@ -26,8 +26,7 @@ author: Monique
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 Url: 'https://moniqueaxt.github.io'
-  #'http://localhost:4000'
-#baseurl: '/feeling-responsive'
+#baseurl:
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages

@@ -28,7 +28,6 @@ to technology and electronics. Originally from South Africa, I moved to Sweden t
 
 This goal of this website is to be the starting point of building a fantastic portfolio.
 It's a continuous work-in-progress that I'm enjoying improving.
-(<em>From the fantastic theme by [Phlow](https://github.com/Phlow/feeling-responsive)</em>).
 
 Main skills: <mark>Java</mark> <mark>C++</mark> <mark>PHP</mark> <mark>Android</mark><br>
 Dabbled in : Python, C, RxJava, JavaScript, Linux, PostgreSQL.
@@ -37,10 +36,10 @@ My interests include <mark>embedded systems</mark>, <mark>mobile app development
 
 #### Interesting links
 
-- [See projects here](http://localhost:4000/feeling-responsive/portfolio/)
-- [See courses here](http://localhost:4000/feeling-responsive/blog/)
+- [See projects here]({{ site.url }}/portfolio/)
+- [See courses here]({{ site.url }}/blog/)
 - [Github profile](https://github.com/moniqueaxt)
-- [Resume](http://localhost:4000/feeling-responsive/resume/)
+- [Resume]({{ site.url }}/resume/)
 
 
 ### Soft skills
@@ -81,7 +80,7 @@ This degree program is done via distance, which has given me fantastic skills in
 I'm looking forward to contributing to the field of software and eager to complete my degree. Currently, my interests include
 <mark>embedded systems</mark>, <mark>mobile app development</mark>, <mark>database management</mark> and all things <mark>backend</mark>.
 
-Want to get in touch? [Contact me.](http://localhost:4000/feeling-responsive/contact/)
+Want to get in touch? [Contact me.]({{ site.url }}/contact/)
 
 
 </div>
