@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title:  "Android Java Application"
 subheadline:  "Projects"
-teaser: "Keep a record those beautiful <em>once-in-a-lifetime</em> spots"
+teaser: "Keep a record of those beautiful <em>once-in-a-lifetime</em> spots"
 breadcrumb: true
 categories:
     - portfolio
