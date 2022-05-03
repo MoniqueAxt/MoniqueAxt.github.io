@@ -381,37 +381,37 @@ content:
           - Students frequently expressed gratitude for my welcoming and patient attitude when conducting individual or group teaching.
           - The course examiner displayed confidence in my ability to be adaptable, follow and implement instructions and continuously improve.
           - Scheduling, organisation and collaboration were key skills needed in this role.
+#
+#      - layout: left
+#        border: weak
+#        title: TLC Fitness Studio
+#        sub_title: Pre- and post-natal fitness coach
+#        caption: 2013 - 2014
+#        link:
+#        quote: >
+#          Responsible for independently running a private studio, creating and fostering client relationships.
+#        description: | # this will include new lines to allow paragraphs
+#          This role developed a strong desire to be continuously learning, researching and keeping up-to-date in my field.
+#          - Introduced the use of technology to improve training and reporting.
+#          - Successfully implemented a client-feedback system.
+#          - Oversaw the training of new employees.
+#         - Effectively developed and maintained 12 long-term client relationships.
+#          - Maximised client satisfaction by researching and designing workout plans with keen attention to detail.
 
-      - layout: left
-        border: weak
-        title: TLC Fitness Studio
-        sub_title: Pre- and post-natal fitness coach
-        caption: 2013 - 2014
-        link:
-        quote: >
-          Responsible for independently running a private studio, creating and fostering client relationships.
-        description: | # this will include new lines to allow paragraphs    
-          This role developed a strong desire to be continuously learning, researching and keeping up-to-date in my field.
-          - Introduced the use of technology to improve training and reporting.
-          - Successfully implemented a client-feedback system.
-          - Oversaw the training of new employees.    
-          - Effectively developed and maintained 12 long-term client relationships.
-          - Maximised client satisfaction by researching and designing workout plans with keen attention to detail.
-
-      - layout: left
-        title: Mr Pet Boutique
-        sub_title: Regional Operations Manager
-        caption: 2010 - 2013
-        link:
-        quote: >
-          Oversight of the organisation and management of 6 retail stores.
-        description: | # this will include new lines to allow paragraphs
-          I developed strong collaborative, administrative and social skills in this position.
-          - Optimised financial responsibilities such as banking administration, pricing, and profit analysis.
-          - Achieved the expansion goal of opening 2 new stores.
-          - Introduced efficient systems to handle stock-purchacing, -ordering -organisation, and -inventory.
-          - Developed great communication skills by establishing relationships with suppliers and managing 10-12 staff members.
-          - Successfully trained and integrated new staff members.
+#      - layout: left
+#        title: Mr Pet Boutique
+#        sub_title: Regional Operations Manager
+#        caption: 2010 - 2013
+#        link:
+#        quote: >
+#          Oversight of the organisation and management of 6 retail stores.
+#        description: | # this will include new lines to allow paragraphs
+#          I developed strong collaborative, administrative and social skills in this position.
+#          - Optimised financial responsibilities such as banking administration, pricing, and profit analysis.
+#          - Achieved the expansion goal of opening 2 new stores.
+#          - Introduced efficient systems to handle stock-purchacing, -ordering -organisation, and -inventory.
+#          - Developed great communication skills by establishing relationships with suppliers and managing 10-12 staff members.
+#         - Successfully trained and integrated new staff members.
 
 
 
