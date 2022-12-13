@@ -23,9 +23,10 @@ Email me directly or use the form below.
             <label for="inputName">Your name</label>
             <input type="text" name="name" class="form-control" id="**exampleInputName**" placeholder="Enter your name" required="required">
           </div>
-           <div class="form-group">
+          <div class="form-group">
             <label for="inputMessage">Message</label>
             <input type="text" name="message" class="form-control" id="inputMessage" placeholder="Enter your message" required="required">
           </div>
+          <input type="hidden" name="_gotcha" style="display:none !important">
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
