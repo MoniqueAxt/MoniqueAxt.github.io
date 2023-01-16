@@ -10,6 +10,9 @@
       url: "/portfolio/android-project/"
     - title: "Web Security Application"
       url: "/portfolio/web-security-project/"
+    - title: "C# .NET Blackjack Game"
+      url: "/portfolio/csharp-project/"
+
 
 - title: Uni Courses
   url: "/blog/"
