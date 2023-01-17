@@ -24,6 +24,8 @@
       url: "/courses/parallelism-concurrency"
     - title: "Design Patters in C++"
       url: "/courses/design-patterns-cplusplus"
+    - title: "Data Structures & Algorithms"
+      url: "/courses/data-structures-and-algorithms"
  #   - title: "Web programming - PHP & PostgreSQL"
   #    url: "/"
 
