@@ -12,6 +12,8 @@
       url: "/portfolio/web-security-project/"
     - title: "C# .NET Blackjack Game"
       url: "/portfolio/csharp-project/"
+    - title: "Embedded programming with C"
+      url: "/portfolio/embedded-project/"
 
 
 - title: Uni Courses
@@ -26,8 +28,8 @@
       url: "/courses/design-patterns-cplusplus"
     - title: "Data Structures & Algorithms"
       url: "/courses/data-structures-and-algorithms"
- #   - title: "Web programming - PHP & PostgreSQL"
-  #    url: "/"
+  # - title: "Web programming - PHP & PostgreSQL"
+  #   url: "/"
 
 - title: Resumé
   url: "/resume/"
