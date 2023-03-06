@@ -15,7 +15,15 @@ image:
 <a name="top"></a>
 They both write in C.
 
-<h2>Under construction ...</h2>
+### Embedded projects
+
+<img src="{{ site.urlimg }}/GitHub-Mark-32px.png" alt="Github repo">
+<a href="https://github.com/MoniqueAxt/Embedded-development/tree/main/Embedded" target="_blank">Github repo link</a>
+
+### C programming
+
+<img src="{{ site.urlimg }}/GitHub-Mark-32px.png" alt="Github repo">
+<a href="https://github.com/MoniqueAxt/Embedded-development/tree/main/C_programs" target="_blank">Github repo link</a>
 
 
 
