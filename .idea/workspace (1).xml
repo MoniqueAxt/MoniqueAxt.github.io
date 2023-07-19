@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b8e23140-c3b6-44ee-bfb5-5e9603bd22e8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25mbkllqAlWpWkpEbDbsWGBV0JI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\moniq\Documents\SCHOOL\. USEFUL INFO COLLECTED\. website, github pages, domain stuff\github_pages\moniqueaxt.github.io\images" />
+      <recent name="D:\Users\moniq\Documents\SCHOOL\. USEFUL INFO COLLECTED\. website, github pages, domain stuff\github_pages\moniqueaxt.github.io\feeling-responsive\_posts" />
+      <recent name="D:\Users\moniq\Documents\SCHOOL\. USEFUL INFO COLLECTED\. website, github pages, domain stuff\github_pages\moniqueaxt.github.io\feeling-responsive\images" />
+      <recent name="D:\Users\moniq\Documents\SCHOOL\. USEFUL INFO COLLECTED\. website, github pages, domain stuff\github_pages\moniqueaxt.github.io\feeling-responsive\_includes" />
+      <recent name="D:\Users\moniq\Documents\SCHOOL\. USEFUL INFO COLLECTED\. website, github pages, domain stuff\github_pages\moniqueaxt.github.io\feeling-responsive\assets\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\moniq\Documents\SCHOOL\. USEFUL INFO COLLECTED\. website, github pages, domain stuff\github_pages\moniqueaxt.github.io\feeling-responsive\_posts\design" />
+      <recent name="D:\Users\moniq\Documents\SCHOOL\. USEFUL INFO COLLECTED\. website, github pages, domain stuff\github_pages\moniqueaxt.github.io\feeling-responsive\pages" />
+      <recent name="D:\Users\moniq\Documents\SCHOOL\. USEFUL INFO COLLECTED\. website, github pages, domain stuff\github_pages\moniqueaxt.github.io\feeling-responsive\assets\css" />
+      <recent name="D:\Users\moniq\Documents\SCHOOL\. USEFUL INFO COLLECTED\. website, github pages, domain stuff\github_pages\moniqueaxt.github.io\feeling-responsive\images" />
+      <recent name="D:\Users\moniq\Documents\SCHOOL\. USEFUL INFO COLLECTED\. website, github pages, domain stuff\github_pages\moniqueaxt.github.io\feeling-responsive\_layouts" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8e23140-c3b6-44ee-bfb5-5e9603bd22e8" name="Default Changelist" comment="" />
+      <created>1646135353514</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646135353514</updated>
+      <workItem from="1646135356968" duration="56086000" />
+      <workItem from="1646292803736" duration="293000" />
+      <workItem from="1646293959315" duration="128008000" />
+      <workItem from="1646664427488" duration="13661000" />
+      <workItem from="1646731708311" duration="1200000" />
+      <workItem from="1646768619080" duration="1203000" />
+      <workItem from="1646809613170" duration="2670000" />
+      <workItem from="1646901184194" duration="94000" />
+      <workItem from="1646922041413" duration="91000" />
+      <workItem from="1646922784615" duration="296000" />
+      <workItem from="1646943880380" duration="675000" />
+      <workItem from="1647115091628" duration="6740000" />
+      <workItem from="1651583096282" duration="605000" />
+      <workItem from="1651583819043" duration="89000" />
+      <workItem from="1651584030283" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

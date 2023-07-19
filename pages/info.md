@@ -23,14 +23,15 @@ header:
 
 ### Hello
 
-I am a Software Engineering student (graduating 2023) who is excited about working with anything related
+I'm a recent software engineering graduate, excited about working with anything related
 to technology and electronics. Originally from South Africa, I moved to Sweden to pursue a degree in software.
 
 This goal of this website is to be the starting point of building a fantastic portfolio.
 It's a continuous work-in-progress that I'm enjoying improving.
 
-Main skills: <mark>Java</mark> <mark>C++</mark> <mark>PHP</mark> <mark>Android</mark><br>
-Dabbled in : Python, C, RxJava, JavaScript, Linux, PostgreSQL.
+Main skills: <mark>C++</mark>, <mark>Java</mark>
+
+Dabbled in : C, C#, RxJava, PHP, Linux, Android, PostgreSQL.
 
 My interests include <mark>embedded systems</mark>, <mark>mobile app development</mark>, <mark>database management</mark> and all things <mark>backend</mark>.
 
@@ -77,8 +78,7 @@ After completing these, I was excited to be accepted into my preferred program: 
 This degree program is done via distance, which has given me fantastic skills in being self-motivated, disciplined and responsible.
 
 #### Future
-I'm looking forward to contributing to the field of software and eager to complete my degree. Currently, my interests include
-<mark>embedded systems</mark>, <mark>mobile app development</mark>, <mark>database management</mark> and all things <mark>backend</mark>.
+I'm looking forward to contributing to the field of software. 
 
 Want to get in touch? [Contact me.]({{ site.url }}/contact/)
 

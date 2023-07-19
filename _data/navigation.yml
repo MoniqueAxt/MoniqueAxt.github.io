@@ -6,6 +6,8 @@
   url: "/portfolio/"
   side: left
   dropdown:
+    - title: "Computer Vision OpenCV C++"
+      url: "/portfolio/opencv"
     - title: "Android Java Application"
       url: "/portfolio/android-project/"
     - title: "Web Security Application"

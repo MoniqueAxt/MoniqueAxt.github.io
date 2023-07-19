@@ -1,0 +1,57 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <style>
+        /*! div style */
+        .image-gallery {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+            justify-content: center;
+            padding: 4px;
+        }
+
+        .box {
+            flex-basis: 25%;
+            width: 100%;
+            padding: 10px;
+            margin: 2px;
+        }
+
+        .img-gallery {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transform: scale(1);
+            transition: all 0.3s ease-in-out;
+        }
+        .img-gallery:hover {
+             transform: scale(1.05);
+         }
+    </style>
+
+
+    {% assign filenames = "opencv-logo.png,csharp_Logo.jpg,android.jpg,c_Logo.jpg,php.jpg" | split: "," %}
+    {% assign linknames = "opencv,csharp-project,android-project,embedded-project,web-security-project" | split: "," %}
+    {% assign captions = "OpenCV C++ Computer Vision,C# .NET Blackjack Game,Android Java Mobile App,Embedded Programming,Web Security Project" | split: "," %}
+
+    <div class ="image-gallery">
+        {% for name in filenames %}
+        {% assign index = forloop.index0 %}
+        <div class="box">
+            <a href="{{ site.url }}{{ site.baseurl }}/portfolio/{{ linknames[index] }}">
+                <img src="{{ site.urlimg }}{{ name }} " alt="{{ name }}"  class="img-gallery" />
+            </a>
+            <p class="image-caption">{{ captions[index] }}</p>
+        </div>
+        {% endfor %}
+    </div>
+
+</head>
+<body>
+
+</body>
+
